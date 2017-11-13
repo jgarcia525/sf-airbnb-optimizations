@@ -2,13 +2,20 @@
 <html lang="en">
 	<link rel="stylesheet" type="text/css" href="homepage-style.css">
 	<head>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 		<title>San Francisco Airbnb Listings</title>
+		<script src="save-data.js"></script>
 	</head>
 	<body>
 		<h1>San Francisco Airbnb Listings </h1>
 		<p> This website ....</p>
 		<h2>Interesting Trends from Dataset</h2>
 		<img img width="720" height="405" src="img/frequency-of-prices.png">
+		<section id="input box">
+			<form>
+				<p>Latitude: <input type="text" id="latitude"></p>
+				<p>Longitude: <textarea id="longitude"></textarea></p>
+				<p><input type="button" id="button" value="Save"></p>
+			</form>
 	</body>
 </html>
