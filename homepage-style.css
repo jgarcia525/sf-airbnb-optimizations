@@ -1,13 +1,13 @@
 body {
-	background-color: floralwhite;
+	background-color: black;
+	color: white;
 	font-family: "custom font";
 	text-align: center;
-	color: blue;
 }
 
 h1 {
 	font-size: 45px;
-	color: black;
+	color: blue;
 	background-color: floralwhite;
 	text-align: center;
 }
