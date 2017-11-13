@@ -6,6 +6,12 @@ body {
 
 h1 {
 	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	font-size: 45px;
 	color: blue;
 	text-align: center;
 }
