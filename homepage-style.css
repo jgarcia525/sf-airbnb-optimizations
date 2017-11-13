@@ -5,12 +5,18 @@ body {
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 60px;
 	color: black;
 	text-align: center;
 }
 
 h2 {
+	font-size: 45px;
+	color: dodgerblue;
+	text-align: center;
+}
+
+h3 {
 	font-size: 45px;
 	color: dodgerblue;
 	text-align: center;
