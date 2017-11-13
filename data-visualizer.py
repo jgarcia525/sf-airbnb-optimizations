@@ -30,7 +30,7 @@ csfont = {'fontname':'Fantasy'}
 
 
 # Frequency of prices graph
-plt.hist(priceList,  bins = 1000)
+plt.hist(priceList, bins = 1000)
 plt.title('Frequency of Prices in San Francisco', **csfont)
 plt.ylabel('Frequency', **csfont)
 plt.xlabel('Prices', **csfont)
@@ -57,13 +57,13 @@ for x in range(1000):
 	reviewValue = reviewList[x]
 	reviewValue = reviewValue[0]
 
-	if (reviewValue != "nan"):
+	if (reviewValue != "None"):
 		priceList2.insert(x, priceValue)
 		reviewList2.insert(x, reviewValue)
 
 # Price and review corelation
-plt.plot(reviewList,  bins = 1000)
-plt.title('Price and Review Corelation', **csfont)
+plt.plot(priceList2, reviewList2, '.')
+plt.title('Price and Review Correlation in San Francisco', **csfont)
 plt.ylabel('Review (out of 100)', **csfont)
 plt.xlabel('Prices', **csfont)
 plt.show()
